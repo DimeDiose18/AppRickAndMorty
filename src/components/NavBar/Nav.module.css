@@ -1,0 +1,49 @@
+.navContainer {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(20, 20, 20) ;
+    padding: 0;
+    border-bottom: 1px solid black;
+
+}
+.navbarLeft {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}
+.navLogo{
+    width: 250px;
+    height: 60px;
+}
+
+.navbarRight{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* botones */
+.button {
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #ebe304;
+    color: #141414;
+    user-select: none;
+    font-family: "Nexa";
+    display: flex;
+}
+
+@media (max-width: 640px) {
+    .navLogo {
+        width: 170px;
+        height: 50px;
+    }
+    .button{
+        justify-content: end;
+    }
+}

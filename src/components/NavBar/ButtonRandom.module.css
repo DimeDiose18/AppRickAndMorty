@@ -1,0 +1,9 @@
+.button {
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #c1dd41;
+    color: #141414;
+    user-select: none;
+    font-family: "Nexa";
+}

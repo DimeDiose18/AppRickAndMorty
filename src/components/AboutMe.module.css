@@ -1,0 +1,79 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(22, 20, 20, 0.849);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.aboutContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-template-rows: repeat(3, 1fr);
+}
+/*lado izquierdo del about*/
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  display: grid;
+  align-items: center;
+  margin-left: 10px;
+}
+
+/*carousel*/
+
+.carousel {
+  width: 100%;
+  border: 1px solid #8ba02dc4;
+  box-shadow: rgba(47, 85, 22, 0.3) 0px 19px 38px, rgba(58, 160, 27, 0.22) 0px 15px 12px;
+}
+
+/*lado derecho del about*/
+.two {
+  grid-column: 2/4;
+  grid-row: 1/4;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/*personal info*/
+.infoPersonal {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.name {
+  font-size: 50px;
+  font-family: "CoffeCake";
+  margin: 0;
+  color: #38f7de;
+}
+.info {
+  font-size: 20px;
+  font-family: "Nexa";
+  margin: 0;
+  color: #0bd8eed6;
+}
+
+.three {
+  grid-column: 2 /4;
+  grid-row: 4/4;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon {
+  width: 45px;
+  background-color: #d1ff009f;
+  border: 1px solid #c1dd41;
+  border-radius: 50%;
+  box-shadow: 43px 35px 72px 0px rgb(255 255 255 / 31%);
+}

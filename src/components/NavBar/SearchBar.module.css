@@ -1,0 +1,40 @@
+.containerSearch {
+display: flex;
+height: 30px;
+width: 300px;
+margin-right: 10px;
+user-select: none;
+}
+.search {
+    width: 100%;
+    font-family: "Nexa";
+    user-select: none;
+}
+
+ input::placeholder {
+    font-family: "Nexa";
+ }
+.button {
+    width: fit-content;
+    cursor: pointer;
+    background-color: #c1dd41;
+    display: flex;
+    padding: 0 6px;
+    align-items: center;
+    user-select: none;
+}
+.imgButton {
+    width: 20px;
+    height: 20px;
+    user-select: none;
+}
+
+@media (max-width: 640px) {
+    .containerSearch{
+        justify-content:flex-end
+    }
+    .search {
+        width: 100px;
+    }
+}
+

@@ -1,0 +1,68 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(22, 20, 20, 0.849);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.formContainer {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #40b5cb;
+    background-color: #141414;
+    font-family: "Nexa";
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.formContainer img {
+    width: 210px;
+}
+
+.emailContent, .passwordContent {
+    display: flex;
+    flex-direction:column;
+}
+
+.button {
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #c1dd41;
+    color: #141414;
+    user-select: none;
+    font-family: "Nexa";
+    margin: 5px;
+}
+
+.error{
+border: 2px solid rgb(211, 11, 11);
+}
+
+.success{
+border: 2px solid rgb(26, 128, 26);
+}
+
+input {
+    font-family: "Nexa";
+    border: 0 solid white;
+    border-radius: 3px;
+    width: 220px;
+}
+
+input::placeholder {
+    font-family: "Nexa";
+ }
+
+
+span {
+    font-size: 10px;
+    color: hsla(11,80%,31%,1);
+}
