@@ -30,17 +30,18 @@ function App() {
 
   const onSearch = (id) => {
     try {
-      axios(`https://rickandmortyapi.com/api/character/${id}`)
+      axios(`http://localhost:3001/rickandmorty/character/${id}`)
         .then(({ data }) => {
-          debugger;
           if (data.id) {
             
             const filterChar = characters?.map((e) => {
               if (e.id === data.id) return e;
             });
 
+           
             const filteredChar = filterChar.filter((e)=> e !== undefined)
-            if (filteredChar?.length) {
+            //const filteredChar = filterChar !== undefined ? [filterChar] : [];
+            if (filteredChar.length) {
               window.alert("¡Ya hay un personaje con ese ID!");
             } else {
               setCharacters((oldChars) => [...oldChars, data]);

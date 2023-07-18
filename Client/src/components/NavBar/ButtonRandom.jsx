@@ -5,7 +5,7 @@ const ButtonRandom = ({ onSearch }) => {
   //const [randomNumber, setRandomNumber] = useState(0);
 
   const handleClick = () => {
-    const newRandomNumber = Math.floor(Math.random() * 826);
+    const newRandomNumber = Math.floor(Math.random() * 820);
     onSearch(newRandomNumber);
   };
 
