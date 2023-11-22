@@ -13,6 +13,9 @@
     width: 50%;
     align-items: center;
 }
+.navbarLeft a {
+    text-decoration: none;
+}
 .navLogo{
     width: 250px;
     height: 60px;
@@ -36,6 +39,8 @@
     user-select: none;
     font-family: "Nexa";
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 640px) {

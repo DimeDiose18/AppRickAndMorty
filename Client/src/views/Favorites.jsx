@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import Card from "../components/Card";
+import Card from "../components/Card/Card";
 
 const Favorites = ({ onClose }) => {
   const myFavorites = useSelector((state) => state.myFavorites);

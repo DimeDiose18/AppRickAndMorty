@@ -11,11 +11,5 @@
 body {
   background-image: url("./assets/images/HD-wallpaper-rick-and-morty-neon.jpg");
   margin: 0;
-  background-repeat: initial;
 }
 
-@media (max-width: 640px) {
-  body {
-    background-repeat: initial;
-  }
-}

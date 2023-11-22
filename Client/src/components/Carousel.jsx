@@ -1,7 +1,7 @@
 import React from 'react';
 import { SimpleCarouselSlider } from 'react-simple-carousel-image-slider'
 import 'react-simple-carousel-image-slider/dist/index.css'
-import styles from "./AboutMe.module.css"
+import styles from "./Aboutme/AboutMe.module.css"
 
   const images = [
     require('../assets/images/gorickyourself.png'),

@@ -1,7 +1,7 @@
 import styles from "../components/Login.module.css";
 import imgLogin from "../assets/images/mrmessenks.png";
 import { useState } from "react";
-import validate from "../components/validation";
+import validate from "../utils/validation.js";
 
 
 

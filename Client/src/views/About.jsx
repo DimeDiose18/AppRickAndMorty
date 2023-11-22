@@ -1,5 +1,5 @@
-import AboutMe from "../components/AboutMe";
-import styles from "../components/AboutMe.module.css"
+import AboutMe from "../components/Aboutme/AboutMe";
+import styles from "../components/Aboutme/AboutMe.module.css"
 
 const About = () => {
   return (

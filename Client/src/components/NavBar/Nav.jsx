@@ -1,6 +1,6 @@
 import React from "react";
-import SearchBar from "./SearchBar";
-import ButtonRandom from "./ButtonRandom";
+import SearchBar from "./SearchBar/SearchBar";
+import ButtonRandom from "./ButtonRandom/ButtonRandom";
 import styles from "./Nav.module.css";
 import { Link } from "react-router-dom";
 import logo from "./../../assets/images/Rick_and_Morty.svg.png";

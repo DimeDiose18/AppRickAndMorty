@@ -1,0 +1,76 @@
+.card {
+  border-radius: 50%;
+  border: 5px solid aliceblue;
+  width: 300px;
+  margin: 10px;
+  height: 298px;
+  background-image: url("../../assets/images/9829215db6f9210c0ae4e318e854cb1f.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  position: absolute;
+}
+
+.image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.image:hover {
+  opacity: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info h2 {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "CoffeCake";
+  margin: 0px 5px 0px 5px;
+}
+
+.info p {
+  font-size: 13px;
+  font-family: "Nexa";
+  margin: 0;
+}
+
+.cardButton {
+  background-color: #141414;
+  color: #b9b9b9;
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  transform: translate(58px, -62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonFav {
+  background-color: #141414;
+  border-radius: 50%;
+  display: flex;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  transform: translate(-58px, -62px);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
