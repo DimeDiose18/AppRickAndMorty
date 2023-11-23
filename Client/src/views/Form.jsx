@@ -2,8 +2,7 @@ import styles from "../components/Login.module.css";
 import imgLogin from "../assets/images/mrmessenks.png";
 import { useState } from "react";
 import validate from "../utils/validation.js";
-
-
+import { Toaster, toast } from "sonner";
 
 const Form = ({ loginUser }) => {
   const [userData, setUserData] = useState({
@@ -25,7 +24,7 @@ const Form = ({ loginUser }) => {
     loginUser(userData);
   }
   return (
-    <form>
+    <div>
       <div className={styles.container}>
         <div className={styles.formContainer}>
           <img src={imgLogin} alt="mr.meeseeks" />
@@ -60,9 +59,17 @@ const Form = ({ loginUser }) => {
           >
             Login
           </button>
+          <Toaster />
+          <button
+            className={styles.help}
+            onClick={() => (
+              toast('Email: dimediose@example.com Password: diose123 ')
+              )}>
+            TRY THIS FOR HELP
+          </button>
         </div>
       </div>
-    </form>
+    </div>
   );
 };
 

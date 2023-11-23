@@ -10,7 +10,7 @@
 
 .formContainer {
     width: 300px;
-    height: 400px;
+    height: 440px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -40,6 +40,17 @@
     user-select: none;
     font-family: "Nexa";
     margin: 5px;
+}
+
+.help{
+    width: 120px;
+    height: 22px;
+    cursor: pointer;
+    background-color: #40b5cb;
+    user-select: none;
+    font-family: "Nexa";
+    margin: 5px;
+    font-size: 10px;
 }
 
 .error{

@@ -6,7 +6,7 @@ import Cards from "./components/Cards/Cards.jsx";
 import About from "./views/About.jsx";
 import Detail from "./views/Detail.jsx";
 import Form from "./views/Form.jsx";
-import Favorites from "./views/Favorites";
+import Favorites from "./views/Favorites.jsx";
 import axios from "axios";
 
 function App() {

@@ -18,7 +18,7 @@ export default function SearchBar({ onSearch }) {
         className={styles.search}
         onChange={handleChange}
         type="search"
-        placeholder="Wubba lubba dub dub ?"
+        placeholder="Wubba lubba dub dub ? Put a number"
       />
       <button
         onClick={() => {
